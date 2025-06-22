@@ -14,7 +14,7 @@ criterion = nn.MSELoss()  # 평균제곱오차
 optimizer = optim.SGD(model.parameters(), lr=0.01)  # 확률적 경사하강법
 
 # 10번 반복해서 학습 (epoch)
-for epoch in range(100):
+for epoch in range(1000):
     optimizer.zero_grad()         # 기울기 초기화
     outputs = model(x)            # 모델에 입력값 전달
     loss = criterion(outputs, y)  # 손실 계산
