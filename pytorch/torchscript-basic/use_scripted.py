@@ -1,7 +1,7 @@
 from model import SimpleModel
 import torch
 
-loaded_model = torch.jit.load("traced_model.pt")
+loaded_model = torch.jit.load("scripted_model.pt")
 
 print(loaded_model)
 
