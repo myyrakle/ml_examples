@@ -25,3 +25,10 @@ uv run train.py
 ```bash
 uv run use_state_dict.py
 ```
+
+trace 컴파일 및 사용
+
+```bash
+uv run compile_with_trace.py
+uv run use_traced.py
+```
